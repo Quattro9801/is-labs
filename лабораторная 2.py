@@ -20,7 +20,6 @@ class Client(Agent):
         if message.performative == ACLMessage.PROPOSE:
             display_message(self.aid.localname, "Добрый день!")
             display_message(self.aid.localname, "Я хочу купить машину")
-            display_message(self.aid.localname, "Что можете предложить?")
             message = ACLMessage()
             message.set_performative(ACLMessage.PROPOSE)
             message.add_receiver(AID(name="agent_auto@localhost:8022"))
