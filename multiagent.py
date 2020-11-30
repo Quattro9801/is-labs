@@ -136,7 +136,7 @@ if __name__ == '__main__':
 
     start_loop(agents)
     
-#Пример работы программы (так должно работать)                                                                                     
+#Пример работы программы (так должно работать).                                                                                     
 #[customer]  I want to buy a Iphone, I need your help..
 #[seller]   Let's see
 #[seller]   What Iphone model do you like?
