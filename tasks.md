@@ -117,3 +117,41 @@ Example 4:
 
 Combine Haar cascades and KNN, i.e. at first you will need to detect whether object is even present
 on the image and only then try and recognize it.
+
+## Lab 4: Neural Networks
+
+The task is to try and experiment with neural networks, i.e. to build a simple app, which for example,
+recognizes handwriting or draws images procedurally.
+
+Requirements:
+- your task should be achieved using neural networks
+- besides achiving the main taks (recognition, classification, generation, etc.) you need to perform some
+  experiments like measure performance of your solution, measure its accuracy, try and see how it works
+  if input is corrupted or doesn't contain what you are looking for, try various configurations of neural
+  networks and/or training parameters to see which one is better for your task, etc.
+- you can choose any framework you would like to use:
+  [PyTorch](https://pytorch.org/), [Tensorflow](https://www.tensorflow.org/), [Keras](https://keras.io/), etc.
+- programming language doesn't matter as well: use what is easier for you (python, C++)
+
+It is not necessary to train you own neural networks, because it might be expensive in terms of machine resources and time,
+so if you find some pre-trained networks, you can use them. However, you still need to try to perform various experiments
+even on pre-trained network: for example you can measure its accuracy on your own dataset.
+
+Example 1:
+
+Build a simple classifier (is it cat or a dog on the image?) or recognizer (recognize handwriting) app.
+An example: [handwritten digits recognition](https://towardsdatascience.com/handwritten-digit-mnist-pytorch-977b5338e627),
+[generating cats faces](https://towardsdatascience.com/getting-started-with-gans-using-pytorch-78e7c22a14a5) or
+[generating people faces](https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html)
+
+Example 2:
+
+Build an app which transforms images by applying some artistic style on them: [artistic style transfer](https://github.com/pytorch/examples/tree/master/fast_neural_style)
+
+Example 3:
+
+[Superresolution](https://github.com/pytorch/examples/tree/master/super_resolution), i.e. upscaling of an image with minimal possible loss of quality and details.
+
+Example 4:
+
+Compare various model architectures for recognition/classification tasks: [example](https://github.com/pytorch/examples/tree/master/imagenet)
